@@ -9,7 +9,7 @@ There are a couple ways to host a static webite on AWS.  If you want support for
 2. Use Amplify with your s3 bucket.  This generates all the necessary AWS resource to run a static website
 3. Use an s3 bucket to hold your site pages and then setup a TLS certificate, a CloudFrount distirbution and Route 53 for DNS
 
-##### S3 Bucket Static Website Hosting
+#### S3 Bucket Static Website Hosting
 * Create an S3 bucket.  I name te S3 bucket something like this mywebsite.com
 * Upload your website the s3 bucket
 * In S3 bucket choose the Properties tab.  Scroo to the boton of the page and click the Edit button Static Website hosting section
@@ -35,6 +35,15 @@ There are a couple ways to host a static webite on AWS.  If you want support for
          }
      ]
 }
+
+### An easier way to upload your data
+
+We will create a credential to access our specific S3 bucket and the AWS command line to upload our static website from our computer.  I'm using a Mac in this example, but this should be applicable to any Linux machine and at least provide a starting point for a Windows user.  If your content updates on a regular basis, with the Mac and Linux you can use a cronjob to automatically up new web content for you.
+
+* Go to the Identity and Access Management section of AWS to create a Group and User.  If you will only one user updating your content you can skip creating a group.  In the example we will do it for completeness
+
+* On the right hand menu bar, click User Grops, and then click the organge Create group button
+ * Give your group a name 
  ```
   * Click the orange save changes button
 
