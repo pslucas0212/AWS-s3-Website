@@ -45,10 +45,7 @@ We will create a credential to access our specific S3 bucket and the AWS command
 
 * On the right hand menu bar, click User Grops, and then click the organge Create group button
  * Give your group a name 
- ```
   * Click the orange save changes button
-
-
   * Test your S3 static bucket website URL it would look someething like this - http://<arn>.s3-website.us-east-2.amazonaws.com 
 
 
