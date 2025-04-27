@@ -35,6 +35,7 @@ There are a couple ways to host a static webite on AWS.  If you want support for
          }
      ]
 }
+```
 
 ### An easier way to upload your data
 
