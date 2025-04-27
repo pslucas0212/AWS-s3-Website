@@ -17,6 +17,7 @@ There are a couple ways to host a static webite on AWS.  If you want support for
   * For Hosting type choose Host a static website
   * Fill in the Index document text field - I use index.html
   * Click the oragne Save changes button in the bottom right hand corner
+  * Make a note Bucket Website Endpoint so can test access after updating the Permissions tab
   * Make a note of your Amazon Resource Name (ARN) before you move on to the next step
  
 * In the S3 bucket next choose the Permissions tab and go to the Bucket Policy ection
@@ -36,6 +37,8 @@ There are a couple ways to host a static webite on AWS.  If you want support for
 }
  ```
   * Click the orange save changes button
-  
+
+
+  * Test your S3 static bucket website URL it would look someething like this - http://<arn>.s3-website.us-east-2.amazonaws.com 
 
 
