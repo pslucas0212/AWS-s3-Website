@@ -19,8 +19,8 @@ There are a couple ways to host a static webite on AWS.  If you want support for
   * Click the oragne Save changes button in the bottom right hand corner
  
 * In the S3 bucket next choose the Permissions tab and go to the Bucket Policy ection
- * Click the edit button in the Bucket Policy and this JSON text
- ```
+  * Click the edit button in the Bucket Policy and this JSON text
+  ```
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -33,8 +33,8 @@ There are a couple ways to host a static webite on AWS.  If you want support for
         }
     ]
 }
-```
-* Click the orange save changes button
+ ```
+ * Click the orange save changes button
   
 
 
