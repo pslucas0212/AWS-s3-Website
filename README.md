@@ -1,2 +1,1 @@
-# AWS-s3-Website
-Run your static website on AWS
+# Run your static website on AWS
