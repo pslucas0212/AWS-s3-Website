@@ -17,6 +17,7 @@ There are a couple ways to host a static webite on AWS.  If you want support for
   * For Hosting type choose Host a static website
   * Fill in the Index document text field - I use index.html
   * Click the oragne Save changes button in the bottom right hand corner
+  * Make a note of your Amazon Resource Name (ARN) before you move on to the next step
  
 * In the S3 bucket next choose the Permissions tab and go to the Bucket Policy ection
   * Click the edit button in the Bucket Policy and use this JSON text.  Use the ARN name for you bucket for the Resouce 
@@ -34,7 +35,7 @@ There are a couple ways to host a static webite on AWS.  If you want support for
      ]
 }
  ```
- * Click the orange save changes button
+  * Click the orange save changes button
   
 
 
