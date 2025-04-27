@@ -17,5 +17,24 @@ There are a couple ways to host a static webite on AWS.  If you want support for
   * For Hosting type choose Host a static website
   * Fill in the Index document text field - I use index.html
   * Click the oragne Save changes button in the bottom right hand corner
+ 
+* In the S3 bucket next choose the Permissions tab and go to the Bucket Policy ection
+ * Click the edit button in the Bucket Policy and this JSON text
+ ```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::highlandparkweather.com/*"
+        }
+    ]
+}
+```
+* Click the orange save changes button
+  
 
 
